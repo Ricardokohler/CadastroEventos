@@ -4,7 +4,7 @@ O programa foi desenvolvido originalmente para um exercício de faculdade, mas f
 
 
 
-
+--
 **Descrição do Projeto**
 
 Este sistema automatiza o cadastro e notificação de eventos locais, facilitando que usuários participem de festas, esportes, shows e outras atividades.
