@@ -1,54 +1,35 @@
-# Sistema de Cadastro e Notificação de Eventos
+**Sistema de Cadastro e Notificação de Eventos**
 
-O programa foi desenvolvido originalmente para um exercício de faculdade, mas foram criadas melhorias visando tornar o sistema mais completo e funcional.  
-O objetivo principal é oferecer uma solução em Java para o cadastro, consulta e gerenciamento de eventos que ocorrem na cidade do usuário, utilizando conceitos de programação orientada a objetos e boas práticas de desenvolvimento.
+O programa foi desenvolvido originalmente para um exercício de faculdade, mas foram feitas melhorias para deixar o sistema mais completo e funcional. O objetivo é criar uma solução em Java para cadastrar, consultar e gerenciar eventos que acontecem na cidade do usuário, usando programação orientada a objetos.
 
----
+**Descrição do Projeto**
 
-## Descrição do Projeto
+Este sistema automatiza o cadastro e notificação de eventos locais, facilitando que usuários participem de festas, esportes, shows e outras atividades.
 
-Este sistema foi pensado para atender a necessidade de automatizar e digitalizar o processo de cadastro e notificação de eventos locais, facilitando a participação dos usuários em atividades culturais, esportivas, shows e outras categorias de eventos.
+**Funcionalidades principais**
 
----
+- Cadastro de usuários com atributos como nome, email e telefone  
+- Cadastro de eventos com nome, endereço, categoria, horário e descrição  
+- Consulta de eventos para confirmar ou cancelar presença  
+- Visualização dos eventos confirmados pelo usuário  
+- Ordenação dos eventos por horário, mostrando quais estão acontecendo ou já passaram  
+- Salvamento e carregamento dos eventos em arquivo texto (`events.data`)
 
-## Funcionalidades Principais
+**Tecnologias utilizadas**
 
-- Cadastro de usuários com atributos completos (nome, email, telefone, entre outros).  
-- Cadastro de eventos, que incluem nome, endereço, categoria, horário e descrição.  
-- Categorias pré-definidas para os eventos, como festas, esportes, shows e outras.  
-- Consulta de eventos cadastrados com possibilidade de confirmação ou cancelamento da participação.  
-- Visualização dos eventos em que o usuário confirmou presença.  
-- Ordenação dos eventos por horário, destacando os eventos que estão ocorrendo no momento e os que já passaram.  
-- Persistência dos eventos em arquivo de texto (`events.data`), que é carregado automaticamente ao iniciar o programa.
+- Java (console)  
+- Orientação a objetos  
+- Git para controle de versão  
+- Manipulação de datas e horários com classes DateTime
 
----
+**Arquitetura**
 
-## Tecnologias Utilizadas
+O projeto segue o paradigma orientado a objetos, organizado para facilitar manutenção e melhorias. Não foi obrigatório usar MVC, mas a separação de responsabilidades foi adotada para clareza no código.
 
-- **Linguagem:** Java  
-- **Ambiente de Desenvolvimento:** Console (linha de comando)  
-- **Estrutura:** Orientação a Objetos  
-- **Controle de versão:** Git (repositório disponível)  
-- **Manipulação de datas e horários:** Classes DateTime do Java  
+**Como utilizar**
 
----
-
-## Arquitetura
-
-O projeto foi estruturado seguindo o paradigma orientado a objetos, com organização modular para facilitar manutenção e futuras melhorias.  
-Embora o uso do padrão MVC não tenha sido obrigatório, a arquitetura incentiva a separação de responsabilidades para maior clareza do código.
-
----
-
-## Como Utilizar
-
-1. Clone ou faça o download do repositório.  
-2. Abra o projeto em sua IDE preferida (Eclipse, IntelliJ, NetBeans, Replit, etc).  
-3. Compile e execute o programa.  
-4. Siga as instruções no console para cadastrar usuários, eventos, confirmar presença, consultar eventos e salvar suas informações.  
-5. Ao iniciar o programa, os eventos previamente cadastrados são carregados automaticamente do arquivo `events.data`.
-
----
-
-Se desejar, contribuições são bem-vindas!  
-Para dúvidas, sugestões ou feedback, abra uma issue no repositório.
+1. Clone ou baixe o repositório  
+2. Abra em sua IDE preferida (Eclipse, IntelliJ, NetBeans, Replit etc)  
+3. Compile e execute o programa  
+4. Use o console para cadastrar usuários, eventos e gerenciar participações  
+5. Os eventos cadastrados são carregados automaticamente do arquivo `events.data` ao iniciar
