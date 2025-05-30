@@ -4,10 +4,11 @@ O programa foi desenvolvido originalmente para um exercício de faculdade, mas f
 
 <br><br>
 
-
 **Descrição do Projeto**
 
-Este sistema automatiza o cadastro e notificação de eventos locais, facilitando que usuários participem de festas, esportes, shows e outras atividades.
+Este sistema automatiza o cadastro e notificação de eventos locais, facilitando que usuários participem de festas, esportes, shows e outras atividades.  
+A escolha por desenvolver o projeto em ambiente de console foi intencional, com o objetivo de focar no estudo dos fundamentos da linguagem Java e na prática da programação orientada a objetos de forma mais direta e didática.
+
 
 **Funcionalidades principais**
 
