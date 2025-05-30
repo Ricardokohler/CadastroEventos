@@ -2,9 +2,9 @@
 
 O programa foi desenvolvido originalmente para um exercício de faculdade, mas foram feitas melhorias para deixar o sistema mais completo e funcional. O objetivo é criar uma solução em Java para cadastrar, consultar e gerenciar eventos que acontecem na cidade do usuário, usando programação orientada a objetos.
 
+<br><br>
 
 
----
 **Descrição do Projeto**
 
 Este sistema automatiza o cadastro e notificação de eventos locais, facilitando que usuários participem de festas, esportes, shows e outras atividades.
