@@ -1,6 +1,6 @@
-package model.event;
+package model.entities.event;
 
-import model.event.Enums.EventCategory;
+import model.entities.event.Enums.EventCategory;
 
 import java.time.LocalDate;
 

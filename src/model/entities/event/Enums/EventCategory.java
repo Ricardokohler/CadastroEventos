@@ -1,4 +1,4 @@
-package model.event.Enums;
+package model.entities.event.Enums;
 
 public enum EventCategory {
     FESTAS,

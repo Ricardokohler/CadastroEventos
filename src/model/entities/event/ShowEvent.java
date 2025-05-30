@@ -1,16 +1,16 @@
-package model.event;
+package model.entities.event;
 
-import model.event.Enums.EventCategory;
+import model.entities.event.Enums.EventCategory;
 
 import java.time.LocalDate;
 
-public class GastronomyEvent extends Event {
+public class ShowEvent extends Event {
     private EventCategory eventCategory;
 
-    public GastronomyEvent() {
+    public ShowEvent() {
     }
 
-    public GastronomyEvent(String name, String address, LocalDate startDate, LocalDate endDate, String description, EventCategory eventCategory, boolean userParticipation) {
+    public ShowEvent(String name, String address, LocalDate startDate, LocalDate endDate, String description, EventCategory eventCategory, boolean userParticipation) {
         super(name, address, startDate, endDate, description, userParticipation);
         this.eventCategory = eventCategory;
     }
