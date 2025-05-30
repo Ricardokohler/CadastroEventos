@@ -1,4 +1,5 @@
 Sistema de Cadastro e Notificação de Eventos
+
 O programa foi desenvolvido originalmente para um exercício de faculdade, mas foram criadas melhorias visando tornar o sistema mais completo e funcional. O objetivo principal é oferecer uma solução em Java para o cadastro, consulta e gerenciamento de eventos que ocorrem na cidade do usuário, utilizando conceitos de programação orientada a objetos e boas práticas de desenvolvimento.
 
 Descrição do Projeto
